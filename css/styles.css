@@ -5,22 +5,28 @@ body {
 /* Unbehaving logo */
 .logo {
   display: inline-flex;
-  align-items: flex-end;
+  align-items: baseline;
   gap: 0;
   text-decoration: none;
-  font-size: 0;
-  line-height: 0;
 }
-.logo img {
-  display: block;
-  margin: 0;
+.web_logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-.web_logo,
 .studio_logo {
-  height: 21px;
-  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
-
 /* Navigation styles */
 header nav ul {
   list-style: none;
@@ -69,7 +75,7 @@ header nav a:focus-visible {
 /* Hero section styles */
 .hero {
   width: 100%;
-  /* height: 600px; */
+  /* height: 200px; */
   /* display: flex; */
   flex-direction: column;
   align-items: center;
@@ -88,20 +94,35 @@ header nav a:focus-visible {
   color: #fff;
 }
 .order_service_button {
+  font-weight: 500;
+  font-size: 16px;
   /* width: 169px;
-  height: 56px;
-  padding: 16px 32px; */
+  height: 56px;*/
+  padding: 16px 32px;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  /* font-size: 18px; */
-  /* font-weight: 600; */
+  line-height: 120%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-/* .order_service_button:hover {
-  background-color: #e65a00;
-  outline: 2px solid #ff6b08;
-  outline-offset: 2px;
-} */
+.order_service_button:hover {
+  background-color: #404bbf;
+  /* box-sizing: border-box; */
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 120%;
+
+  /* fixed width and height is forcing text to overflow */
+  padding: 16px 32px;
+  /* width: 170px;
+  height: 51px; */
+}
