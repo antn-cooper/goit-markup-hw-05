@@ -185,10 +185,7 @@ header {
 .features-list li {
   width: calc((100% - 24px * 3) / 4);
 }
-.features-section {
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -232,10 +229,16 @@ header {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
+  
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
+  /* outline: 3px dashed red */
+  /* width: calc((100% - 24px * 3) / 4); */
+  /* align-items: flex-start; */
 }
 .team-card {
   border-radius: 0 0 4px 4px;
@@ -244,6 +247,8 @@ header {
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08); /*value is taken from the mockup*/
+    box-sizing: border-box;
+     /* outline: 3px dashed blue */
 }
 .team-card-name {
   font-weight: 500;
