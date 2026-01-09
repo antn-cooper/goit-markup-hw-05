@@ -455,7 +455,6 @@ header > .container {
 }
 .footer a {
   text-decoration: none;
-  display: inline-block;
 }
 .footer-business-paragraph {
   font-size: 16px;
