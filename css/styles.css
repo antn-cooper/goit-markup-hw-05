@@ -348,7 +348,7 @@ header > .container {
 }
 .team-card-social-link:hover,
 .team-card-social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 /* Our Portfolio section */
@@ -435,7 +435,7 @@ header > .container {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -485,7 +485,7 @@ header > .container {
 }
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 120px;
 }
 .footer-logo-content {
@@ -501,7 +501,7 @@ header > .container {
 .footer-social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 16px;
 }
 .footer-social-link {
