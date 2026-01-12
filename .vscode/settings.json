@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": false,
+  "emmet.syntaxProfiles": {
+    "html": "html"
+  },
+  "emmet.preferences": {
+    "output.selfClosingTag": "html"
+  },
+  "html.format.enable": false
+}
