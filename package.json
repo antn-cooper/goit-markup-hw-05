@@ -9,12 +9,7 @@
   },
   "devDependencies": {
     "clean-css-cli": "^5.6.3",
-<<<<<<< HEAD
-    "html-validator-cli": "^2.0.0",
-=======
-    "html-validator-cli": "^7.0.1",
->>>>>>> 365b4cc7c026516bcc9cd2fbeeaabba15c4233fc
-    "prettier": "^3.3.3"
+    "html-validator-cli": "^7.0.1"
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"
